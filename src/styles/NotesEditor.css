@@ -1,0 +1,79 @@
+.editor {
+  transform: none !important;
+  direction: ltr !important;
+  unicode-bidi: normal !important;
+  scale: 1 !important;
+}
+
+.notes-editor-root .editor {
+  direction: ltr !important;
+  unicode-bidi: plaintext !important;
+  text-align: left !important;
+}
+
+.editor * {
+  transform: none !important;
+  direction: inherit !important;
+  unicode-bidi: inherit !important;
+  scale: 1 !important;
+}
+
+.flashcard-panel {
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.flashcard {
+  background: #fafafa;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 4px solid #4a90e2;
+}
+
+.flashcard-front {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.flashcard-back {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flashcard-modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 320px;
+}
+
+.notes-editor-root { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color: #111827; }
+.notes-header { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:12px; flex-wrap:wrap;}
+.notes-title h2 { margin:0; font-size:1.6rem; }
+.profile-pill { display:flex; align-items:center; gap:8px; }
+.profile-dot { width:20px; height:20px; border-radius:999px; display:inline-block; }
+.toolbar { display:flex; gap:8px; margin-bottom:8px; }
+.toolbar button { min-width:40px; }
+.editor { background:white; }
+.practice { margin-top:12px; }
+.practice-block { background:#f7fafc; padding:10px; border-radius:6px; min-height:40px; white-space:pre-wrap; }
+.flashcards-section { margin-top:16px; }
+.flashcard-row { display:flex; justify-content:space-between; gap:12px; background:#fffaf0; padding:8px; border-radius:6px; margin-bottom:8px; align-items:center; }
+.modal-backdrop { position:fixed; left:0; top:0; right:0; bottom:0; background:rgba(0,0,0,0.4); display:flex; align-items:center; justify-content:center; z-index:999; }
+.modal { background:white; padding:16px; border-radius:10px; width:90%; max-width:520px; box-shadow:0 8px 30px rgba(0,0,0,0.2); }
+.modal textarea { width:100%; min-height:80px; margin-bottom:8px; }
+.modal-actions { display:flex; gap:8px; justify-content:flex-end; }
+.muted { color:#6b7280; padding:8px 0; }
